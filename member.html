@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>header</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/member.js"></script>
+    <link href="css/com.css" rel="stylesheet" type="text/css">
+    <link href="css/member.css" rel="stylesheet" type="text/css">
+    <style>
+        .p_list .filter.active{
+            width: 0;
+            opacity: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+
+
+        <div>
+            
+            <div class="logo">
+                <a href="index.html"><img src="img/logo_converse.jpg"></a>
+            </div>
+
+
+            <div class="list">
+                <nav>
+                    <a href="total.html">신발</a>
+                    <a href="member.html">회원전용</a>
+                    <a href="product.html">런칭캘린더</a>
+                    
+                </nav>
+            </div>
+
+
+            <div class="icons">
+                <nav>
+                    <a href="#"><img src="img/wehe.png"></a>
+                    <a href="#"><img src="img/cartrr.png"></a>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+
+        <div class="con1">
+            <img src="img/member-main.png" alt="">
+        </div>
+
+        
+
+        <div class="commu">
+            <h1>컨버스 공식 온라인 스토어 회원 전용 혜택</h1>
+            <ul>
+                <li>
+                    <img src="img/mo_1.png" alt="">
+                    <h3>드로우 응모</h3>
+                    <p>디자이너 콜라보레이션등<br>
+                    다양한 리미티드 에디션의<br>
+                    구매 기회를 만나보세요.</p>
+                </li>
+
+                <li>
+                   <img src="img/mo_2.png" alt="">
+                    <h3>신규 가입 축하 쿠폰</h3>
+                    <p>가입 즉시 사용할 수 있는<br>
+                    1만원 할인 쿠폰으로<br>
+                    컨버스 첫 구매를 지원합니다.</p></li>
+
+                <li>
+                   <img src="img/mo_3.png" alt="">
+                    <h3>얼리버드 알람</h3>
+                    <p>등록된 핸드폰 번호를 통해<br>
+                    신상품 출시 소식을<br>
+                    가장 빠르게 안내 드립니다.</p></li>
+
+                <li>
+                   <img src="img/mo_4.png" alt="">
+                    <h3>회원 전용 상품</h3>
+                    <p>오직 회원만 만나볼 수 있는<br>
+                    특별한 시즌 상품이<br>
+                    여러분을 기다립니다.</p></li>
+
+             
+            </ul>
+        </div>
+        
+        <div class="all">
+            <a href="login.html">회원가입하기</a>
+            
+        </div>
+
+        <div class="feng">
+            <img src="img/MEMBERS-ONLY-BANNER.png" alt="">
+            
+
+        </div>
+        
+        
+        <div class="sepa">
+            
+            
+
+            <div class="sle">
+                <button class="content">필터 숨기기</button>
+               <p>총 72개의 상품</p>
+                
+                <select name="New">
+                    <option value="">신상품순</option>
+                    <option value="인기">인기상품순</option>
+                    <option value="낮은">낮은가격순</option>
+                    <option value="높은">높은가격순</option>
+                </select>
+            </div>
+            
+        </div>
+<!--        -----------상품리스트------------->
+        <div class="p_list">
+          
+           <div class="filter">
+               <ul class="si">
+<!--                  사이즈-->
+                   <h3>사이즈</h3> 
+                   <li>220</li>
+                   <li>225</li>
+                   <li>230</li>
+                   <li>235</li>
+                   <li>240</li>
+                   <li>245</li>
+                   <li>250</li>
+                   <li>255</li>
+                   <li>260</li>
+                   <li>265</li>
+                   <li>270</li>
+                   <li>275</li>
+                   <li>280</li>
+                   <li>285</li>
+                   <li>290</li>
+               </ul>   
+<!--                   <li>295</li>-->
+<!--                   색상-->
+                  
+                   <div class="sil">
+                       <h3>실루엣</h3>
+                    <ul>
+                       <li>
+                         
+                          <svg id="cut-hi" viewBox="0 0 82 50">
+                           <path d="M21 50c-8.6 0-15.6 0-17.2-.1-1.4-.1-2.5-.6-3.1-1.5-1.4-2-.4-5.1.1-6.6.1-.3.1-.7.1-1.1-.4-4.9 1.7-11.1 2.8-14.5l.2-.6c1.5-4.6 1.4-15 1.2-18.2 0-.8 0-1.8.7-2.4.8-.7 1.9-.6 3.7-.4 1.2.1 2.8.3 4.9.3 5.1 0 7.5-1.6 11.2-4.3.8-.6 1.7-.7 2.6-.5.9.3 1.6.9 1.9 1.8 2.7 7 7.9 13.5 11.7 17.7 2.4 2.6 5.2 4.6 8.3 5.9 9.7 4.1 16.7 6.4 20.7 6.6 4.8.3 8.1 1.6 9.8 3.8 2 2.6 1.3 5.6 1 6.9-.2.8-.6 2.6-18.9 6.7-.8.2-1.5.3-2.3.3-5.4.1-24.7.2-39.4.2zM7.1 6.5v.8c0 .1.7 13.2-1.3 19l-.2.6c-1.1 3.2-3.1 9.2-2.7 13.7.1.7 0 1.3-.2 1.9-.3 1-1.1 3.7-.3 4.8.1.1.4.6 1.6.7 4.2.2 47.8 0 56.5 0 .6 0 1.2-.1 1.9-.2 10.8-2.4 16.6-4.4 17.4-5.2.3-1.2.7-3.5-.6-5.3-1.3-1.8-4.1-2.8-8.3-3-4.3-.3-11.5-2.5-21.4-6.8-3.4-1.5-6.4-3.6-9-6.4-4-4.4-9.4-11.1-12.1-18.4-.1-.4-.4-.5-.6-.6-.3-.1-.6 0-.9.2-4 2.9-6.8 4.7-12.4 4.7-2.2 0-3.9-.2-5.1-.3-1-.2-2-.3-2.3-.2zm72.6 35.9z">
+                           <h4>하이</h4>
+                       </path>
+                       </svg>
+                       
+                       </li>
+                       
+                     <li>  
+                       
+                       <svg id="cut-lo" viewBox="0 0 82 36">
+                           <path d="M21 36c-8.6 0-15.6 0-17.2-.1-1.4-.1-2.4-.6-3.1-1.5-1.4-2-.4-5.2.1-6.9 0-.1.1-.2.1-.3-.7-5.4 1.9-13 3-16 .2-.7.8-1.2 1.4-1.4.7-.2 1.4-.1 1.9.3l2.9 2c4.3 2.7 7.7 3.2 10.3 1.5 1.7-1.1 2.6-3.3 2.5-5.7-.1-1.1-.2-2.2-.3-3.5-.2-1.5.2-2.7 1-3.4C25-.3 27.3.2 27.5.2l.3.1c.3.2 31.5 16.9 43 17.6 4.7.3 8 1.6 9.7 3.8 2 2.6 1.3 5.8 1 7.1-.2.8-.6 2.7-18.8 6.8-.8.2-1.6.3-2.4.3-5.4 0-24.7.1-39.3.1zM6 11.6c-.1 0-.2.1-.2.2-1.1 2.9-3.6 10.3-2.9 15.3v.2l-.1.2c0 .2-.1.4-.2.6-.4 1.3-1.2 4-.4 5.2.1.2.4.6 1.6.7 4.1.2 47.8 0 56.5 0 .7 0 1.3-.1 2-.2 10.8-2.5 16.5-4.5 17.3-5.3.3-1.3.7-3.6-.7-5.5-1.3-1.8-4.1-2.8-8.2-3.1C59 19.2 29.5 3.5 27 2.1c-.5-.1-1.5-.1-2 .3-.3.3-.5.9-.4 1.7.1 1.3.3 2.5.3 3.6.2 3.1-1.1 5.9-3.3 7.5-2.3 1.5-6.3 2.5-12.5-1.5l-2.9-2c-.1-.1-.1-.1-.2-.1zm73.7 16.8z">
+                           <h4>로우</h4>
+                       </path>
+                       </svg>
+                       </li>
+                       
+                       <li>
+                       
+                       <svg id="cut-mid" viewBox="0 0 82 40">
+                           <path d="M21 40c-8.6 0-15.7 0-17.2-.1-1.4-.1-2.5-.6-3.1-1.5-1.3-1.9-.4-4.9.1-6.4.1-.3.1-.6.1-1C.5 26.2 2.5 19.5 4 16.3c1-2.4 1.6-5.1 1.6-8.6 0-2.4 2.2-2.8 6.1-3.5.8-.1 1.7-.3 2.7-.5 4.3-.8 6-1.2 12.7-3.4 2.1-.7 3.4.2 4.1 1.2 2.6 3.5 5 6.4 9.8 9.8 3.6 2.5 6.5 4.3 9.1 5.4 7.9 3.5 15.7 5.8 20.7 6.1 4.8.3 8.1 1.6 9.8 3.8 1.9 2.5 1.2 5.4.9 6.7-.2.9-.6 2.6-18.9 6.5-.8.2-1.5.2-2.3.2-5.3-.1-24.6 0-39.3 0zm7.5-38c-.2 0-.5 0-.8.1-6.9 2.3-8.6 2.6-13 3.5-1 .2-1.9.4-2.7.5-3.6.6-4.5.9-4.5 1.6-.1 3.8-.6 6.8-1.8 9.4-1.3 3-3.3 9.3-2.9 13.8.1.7 0 1.3-.2 1.8-.3 1-1.1 3.5-.4 4.6.1.1.4.6 1.6.7 4.2.2 47.8 0 56.5 0 .6 0 1.3-.1 1.9-.2 10.8-2.3 16.5-4.2 17.4-5.1.3-1.2.7-3.3-.6-5-1.3-1.8-4.1-2.8-8.3-3-5.3-.3-13.3-2.6-21.4-6.2-2.8-1.2-5.8-3-9.5-5.6-5-3.6-7.6-6.7-10.3-10.2-.1-.4-.4-.7-1-.7zm51.3 30.6z">
+                           <h4>미드</h4>
+                       </path>
+                       </svg>
+                       </li>
+                       
+                       <li>
+                       
+                       <svg id="cut-plat" viewBox="0 0 82 42">
+                           <path d="M80 21.2c-1.8-2.4-4.9-3.7-9.1-3.9C59.4 16.6 28.5.5 28.2.3L28 .2c-.3-.1-2.5-.5-3.9.8-.6.5-1.2 1.5-1 3.3.1 1.2.3 2.3.3 3.4.2 2.2-.8 4.3-2.4 5.4-2.6 1.7-6 1.2-10.2-1.4l-3-2c-.5-.3-1.2-.4-1.9-.2s-1.2.7-1.4 1.3c-1.4 3.6-3.6 10.4-3 15.4 0 .1-.1.2-.1.3-.3.9-.7 2.3-.8 3.7-.9 7.6 2.1 10.8 2.3 10.9l.3.3 56 .3c2.2 0 4.2-.2 6.5-.6l12.6-3.5c1.7-.5 3-2 3.2-3.7v-6.2c.3-1.7.1-4.4-1.5-6.5zM3.3 27.1c.1-.2.1-.4.2-.6l.1-.2v-.2c-.7-4.8 1.8-11.8 2.8-14.6 0-.1.1-.1.2-.1h.2l2.9 1.9c6.2 3.8 10.2 2.9 12.4 1.4 2.3-1.5 3.6-4.3 3.3-7.2-.1-1-.2-2.2-.3-3.5-.1-.8 0-1.3.3-1.6.5-.5 1.6-.4 2-.3C30 3.5 59.1 18.6 70.7 19.2c3.6.2 6.2 1.2 7.6 3.1 1.3 1.8 1.4 3.9 1.2 5-1.1 1.1-9.9 3.7-17.3 5.3-.7.1-1.3.2-2 .2-8.3 0-51.7 0-55.8-.2-1.1 0-1.4-.5-1.5-.6-.8-1.1.1-3.7.4-4.9zm74.4 8.6l-12.5 3.5c-2.1.4-4 .6-6 .6l-55.1-.4c-.4-.6-1.4-2.3-1.6-5.3.5.3 1.2.4 1.9.5 3.5.2 34 .2 48.8.2h7.2c.8 0 1.6-.1 2.4-.3 5.2-1.1 13.1-3.1 16.8-5v4.1c-.3 1-1 1.8-1.9 2.1z">
+                           <h4>플랫폼</h4>
+                       </path>
+                       </svg>
+                       </li>
+                       
+                       <li>
+                       
+                       <svg id="cut-slip" viewBox="0 0 82 36">
+                           <path d="M20.1 34.5c-8.5 0-15.4 0-17-.1-1.4-.1-2.5-.6-3.1-1.5-1.4-1.9-.4-5 .1-6.7 0-.1.1-.2.1-.3-.6-5 1.6-11.9 3-15.5.3-.7.8-1.2 1.5-1.4.6-.2 1.3-.1 1.9.3l2.9 1.9c4.2 2.6 7.7 3.1 10.2 1.4 1.7-1.1 2.6-3.2 2.4-5.4-.1-1-.2-2.2-.3-3.4-.2-1.8.4-2.8 1-3.3 1.4-1.3 3.7-.8 3.9-.8l.3.1c.3.2 31.2 16.4 42.6 17 4.7.3 8 1.6 9.7 3.8 1.9 2.6 1.3 5.6 1 6.9-.2.9-.6 2.6-18.7 6.6-.8.2-1.6.3-2.4.3-5.4 0-24.6.1-39.1.1zM5.3 10.9c-.1 0-.2.1-.2.2C4 13.9 1.6 21 2.3 25.8v.2l-.1.2c0 .2-.1.3-.2.6-.4 1.2-1.2 3.8-.4 4.9.1.1.4.6 1.6.7 4.1.2 47.3 0 56 0 .7 0 1.3-.1 2-.2 10.7-2.4 16.3-4.3 17.1-5.1.3-1.2.7-3.4-.6-5.2-1.3-1.7-4.1-2.8-8.2-3C57.9 18.2 28.7 3 26.2 1.7c-.5-.1-1.5-.1-2 .3-.3.3-.4.8-.3 1.6.1 1.2.3 2.4.3 3.5.2 3-1.1 5.8-3.3 7.3-2.2 1.5-6.2 2.4-12.4-1.4l-3-2c-.1-.1-.1-.1-.2-.1zm73 16.2zm.1-.1z">
+                           <h4>슬립온</h4>
+                       </path>
+                       </svg>
+                       </li>
+                       
+                   </ul>
+               </div>
+                
+            </div>
+            
+            <div class="b_list">
+            <ul>
+               
+                <li>
+                <img src="img/mem-hov1.png" onmouseover="this.src='img/mem-ori1.png';" onmouseout="this.src='img/mem-hov1.png';" alt="" >
+<!--                <img src="img/300shop2.png" alt="">-->
+                <strong><p>척 테일러 올스타 크레이터 리뉴</p></strong>
+                <small><p>105,000원</p></small>
+                
+                </li>
+                <li>
+                <img src="img/mem-ori2.png" onmouseover="this.src='img/mem-hov2.png';" onmouseout="this.src='img/mem-ori2.png';" alt="">
+<!--                <img src="img/300shop2.png" alt="">-->
+                <strong><p>척 테일러 올스타 크레이터 리뉴</p></strong>
+                <small><p>105,000원</p></small>
+                </li>
+                <li>
+                <img src="img/mem-ori3.png" onmouseover="this.src='img/mem-hov3.png';" onmouseout="this.src='img/mem-ori3.png';" alt="">
+<!--                <img src="img/300shop2.png" alt="">-->
+                <strong><p>척 테일러 올스타 크레이터 리뉴</p></strong>
+                <small><p>105,000원</p></small>
+                </li>
+                <li>
+                <img src="img/mem-ori4.png" onmouseover="this.src='img/mem-ori4.png';" onmouseout="this.src='img/mem-ori4.png';" alt="">
+<!--                <img src="img/300shop2.png" alt="">-->
+                <strong><p>척 70 윈터 홀리데이</p></strong>
+                <small><p>95,000원</p></small>
+                </li>
+                <li>
+                <img src="img/mem-ori5.png" onmouseover="this.src='img/mem-hov5.png';" onmouseout="this.src='img/mem-ori5.png';" alt="">
+<!--                <img src="img/300shop2.png" alt="">-->
+                <strong><p>척 70 윈터 홀리데이</p></strong>
+                <small><p>95,000원</p></small>
+                </li>
+                <li>
+                <img src="img/mem-ori6.png" onmouseover="this.src='img/mem-hov6.png';" onmouseout="this.src='img/mem-ori6.png';" alt="">
+<!--                <img src="img/300shop2.png" alt="">-->
+                <strong><p>척 테일러 올스타 무브 다이아몬드 메탈</p></strong>
+                <small><p>89,000원</p></small>
+                </li>
+                <li>
+                <img src="img/mem-ori7.png" onmouseover="this.src='img/mem-hov7.png';" onmouseout="this.src='img/mem-ori7.png';" alt="">
+<!--                <img src="img/300shop2.png" alt="">-->
+                <strong><p>척 테일러 올스타 다이아몬드 메탈</p></strong>
+                <small><p>95,000원</p></small>
+                </li>
+                <li>
+                <img src="img/mem-ori8.png" onmouseover="this.src='img/mem-hov8.png';" onmouseout="this.src='img/mem-ori8.png';" alt="">
+<!--                <img src="img/300shop2.png" alt="">-->
+                <strong><p>척 테일러 올스타 무브</p></strong>
+                <small><p>85,000원</p></small>
+                </li>
+                <li>
+                <img src="img/mem-ori9.png" onmouseover="this.src='img/mem-hov9.png';" onmouseout="this.src='img/mem-ori9.png';" alt="">
+<!--                <img src="img/300shop2.png" alt="">-->
+                <strong><p>척 70 글리터 샤인</p></strong>
+                <small><p>95,000원</p></small>
+                </li>
+                <li>
+                <img src="img/mem-ori10.png" onmouseover="this.src='img/mem-hov10.png';" onmouseout="this.src='img/mem-ori10.png';" alt="">
+<!--                <img src="img/300shop2.png" alt="">-->
+                <strong><p>척 테일러 올스타 데인티 뮬 코지 클럽</p></strong>
+                <small><p>79,000원</p></small>
+                </li>
+                <li>
+                <img src="img/mem-hov11.png" onmouseover="this.src='img/mem-ori11.png';" onmouseout="this.src='img/mem-hov11.png';" alt="">
+<!--                <img src="img/300shop2.png" alt="">-->
+                <strong><p>척 테일러 올스타 데인티 코지 클럽</p></strong>
+                <small><p>79,000원</p></small>
+                </li>
+                <li>
+                <img src="img/mem-ori12.png" onmouseover="this.src='img/mem-hov12.png';" onmouseout="this.src='img/mem-ori12.png';" alt="">
+<!--                <img src="img/300shop2.png" alt="">-->
+                <strong><p>척 테일러 올스타 데인티 뮬 코지 클럽</p></strong>
+                <small><p>79,000원</p></small>
+                </li>
+                
+                <a onclick="this.nextElementSibling.style.display=(this.nextElementSibling.style.display=='none')?'block':'none';" href="javascript:void(0)" id="more">
+                        제품 상세정보
+                </a>
+                <div style="display: none">
+                    <ul>
+                        <li><img src="img/mem-ori12.png" onmouseover="this.src='img/mem-hov12.png';" onmouseout="this.src='img/mem-ori12.png';" alt="">
+<!--                <img src="img/300shop2.png" alt="">-->
+                <strong><p>척 테일러 올스타 데인티 뮬 코지 클럽</p></strong>
+                <small><p>79,000원</p></small></li>
+                     <li><img src="img/mem-ori12.png" onmouseover="this.src='img/mem-hov12.png';" onmouseout="this.src='img/mem-ori12.png';" alt="">
+<!--                <img src="img/300shop2.png" alt="">-->
+                <strong><p>척 테일러 올스타 데인티 뮬 코지 클럽</p></strong>
+                <small><p>79,000원</p></small></li>
+                     <li><img src="img/mem-ori12.png" onmouseover="this.src='img/mem-hov12.png';" onmouseout="this.src='img/mem-ori12.png';" alt="">
+<!--                <img src="img/300shop2.png" alt="">-->
+                <strong><p>척 테일러 올스타 데인티 뮬 코지 클럽</p></strong>
+                <small><p>79,000원</p></small></li>
+                     <li><img src="img/mem-ori12.png" onmouseover="this.src='img/mem-hov12.png';" onmouseout="this.src='img/mem-ori12.png';" alt="">
+<!--                <img src="img/300shop2.png" alt="">-->
+                <strong><p>척 테일러 올스타 데인티 뮬 코지 클럽</p></strong>
+                <small><p>79,000원</p></small></li>
+                     <li><img src="img/mem-ori12.png" onmouseover="this.src='img/mem-hov12.png';" onmouseout="this.src='img/mem-ori12.png';" alt="">
+<!--                <img src="img/300shop2.png" alt="">-->
+                <strong><p>척 테일러 올스타 데인티 뮬 코지 클럽</p></strong>
+                <small><p>79,000원</p></small></li>
+                     <li><img src="img/mem-ori12.png" onmouseover="this.src='img/mem-hov12.png';" onmouseout="this.src='img/mem-ori12.png';" alt="">
+<!--                <img src="img/300shop2.png" alt="">-->
+                <strong><p>척 테일러 올스타 데인티 뮬 코지 클럽</p></strong>
+                <small><p>79,000원</p></small></li>
+                     <li><img src="img/mem-ori12.png" onmouseover="this.src='img/mem-hov12.png';" onmouseout="this.src='img/mem-ori12.png';" alt="">
+<!--                <img src="img/300shop2.png" alt="">-->
+                <strong><p>척 테일러 올스타 데인티 뮬 코지 클럽</p></strong>
+                <small><p>79,000원</p></small></li>
+                     <li><img src="img/mem-ori12.png" onmouseover="this.src='img/mem-hov12.png';" onmouseout="this.src='img/mem-ori12.png';" alt="">
+<!--                <img src="img/300shop2.png" alt="">-->
+                <strong><p>척 테일러 올스타 데인티 뮬 코지 클럽</p></strong>
+                <small><p>79,000원</p></small></li>
+                     <li><img src="img/mem-ori12.png" onmouseover="this.src='img/mem-hov12.png';" onmouseout="this.src='img/mem-ori12.png';" alt="">
+<!--                <img src="img/300shop2.png" alt="">-->
+                <strong><p>척 테일러 올스타 데인티 뮬 코지 클럽</p></strong>
+                <small><p>79,000원</p></small></li>
+                    </ul>
+                </div>
+            </ul>
+        </div>
+        </div>
+        
+        
+
+    </main>
+
+
+
+    <footer>
+        <div class="footer">
+            <div class="left">
+                <p>
+                    서울시 강남구 테헤란로 152 강남파이낸스센터 30F<br>제 2016-서울강남-00478호<br>컨버스코리아 대표 주형준 개인정보책임 주형준<br>사업자등록번호 220-88-74818<br>
+                    <br><br>2020 Converse Korea LLC.All Right Reserved.
+
+
+                </p>
+            </div>
+
+
+
+            <div class="righ">
+                <a href="#"><img src="img/at1.png"></a>
+            </div>
+        </div>
+    </footer>
+
+    
+
+</body>
+
+</html>

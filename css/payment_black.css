@@ -1,0 +1,317 @@
+@import url(common.css);
+
+/*------------left -----------*/
+.topcon {
+    
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #555;
+    margin-bottom: 200px;
+    width: 80%;
+    color: #fff;
+}
+
+.topcon .left{
+    width: 60vw;
+    margin: 0 !important;
+    
+    
+}
+.topcon .left .pro_img{
+    width: 100%;
+}
+
+.topcon .left .s_img{
+    text-align: center;
+}
+
+.topcon .left .s_img ul{
+    width: 80%;
+    overflow: hidden;
+    display: inline-block;
+}
+.topcon .left .s_img ul li{
+    float: left;
+    margin: 1%;
+    
+}
+.topcon .left .s_img ul li img{width: 100%;}
+
+/*-------------right-------------*/
+
+.right{
+    color: #fff;
+    position: fixed;
+    width: 30vw;
+    right: 5%;
+/*    background: #f9f8f6;*/
+}
+
+.right .first{
+    overflow: hidden;
+}
+.right .first h1{
+    font-size: 2em;
+}
+.right .first .price{
+    margin-top: 30px;
+    font-size: 1.5em;
+}
+.right .first span{
+    float: right;
+    margin-top: 30px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.right .first .fm{
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+.right .first .best{
+    margin-top: 30px;
+    font-size: 1.2em;
+}
+
+.right .first a{
+    margin-top: 30px;
+    color: #fff;
+}
+
+.second{
+    margin-top: 50px;
+    border-top: 1px solid #555;
+    overflow: hidden;
+/*
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+*/
+}
+.second .lef{
+    margin-top: 30px;
+    font-size: 
+}
+.second .lef p{
+    
+}
+.second ul{
+    margin-top: 30px;
+    width: 70%;
+    overflow: hidden;
+}
+.second ul li{
+    float: left;
+}
+
+.second img{
+    
+}
+
+/*
+.second img:hover{
+    background: red;
+}
+*/
+
+.size{}
+.size ul{
+    margin-top: 30px;
+    overflow: hidden;
+    width: 50%;
+    text-align: center;
+    color: #fff;
+    
+    
+}
+.size ul li{
+    
+    float: left;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #fff;
+    color: #000;
+    background: #fff;
+}
+
+.size ul li:hover{
+    background: #f5f5f5;
+    color: #fff;
+    border: 1px solid #f00;
+    background: rgba(0,0,0,0.4);
+}
+
+.ea{
+    margin-top: 30px;
+    border-bottom: 1px solid #555;
+    padding-bottom: 30px;
+}
+
+.ea input{
+    width: 10%;
+    height: 40px;
+    text-align: center;
+    
+}
+.ea button{
+    padding: 10px 15px 10px 15px;
+    
+}
+
+.topcon .right .login{
+    
+    margin-top: 50px;
+    text-align: center;
+}
+.topcon .right .login a{
+    width: 100%;
+    padding: 20px 50px 20px 50px;
+    background: #fff;
+    color: #000;
+   
+}
+
+.topcon .s_img{
+    margin-bottom: 30px;
+}
+.topcon .info{
+    border-top: 1px solid #555;
+    width: 75%;
+}
+
+.topcon .info h2{
+    margin-top: 100px;
+}
+.topcon .info p{
+    line-height: 2.0;
+}
+
+.topcon .left .info .review{
+    margin-top: 100px;
+    border-top: 1px solid #555;
+}
+.topcon .left .info .review h1{
+    margin-top: 100px;
+}
+.topcon .left .info .review ul{
+    overflow: hidden;
+    
+}
+.topcon .left .info .review ul li{
+    float: left;
+    width: 250px;
+    height: 300px;
+    border: 1px solid #555;
+    text-align: center;
+    margin-top: 100px;
+    
+}
+.topcon .left .info .review ul li strong p{
+    font-size: 5em;
+    text-align: center;
+    
+    
+    
+    
+}
+
+.topcon .left .info .review ul li p{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.topcon .left .info .review ul li h2{
+    width: 80%;
+    text-align: center;
+}
+
+.topcon .left .info .review .girl{
+    margin-top: 60px;
+}
+.topcon .left .info .review ul li img{
+    width: 70%;
+    margin-top: 30px;
+}
+.topcon .lef .info .review ul li a{
+    color: #fff !important;
+}
+
+.topcon .left .info .insta{
+    
+}
+.topcon .left .info .insta h1{
+    margin-top: 100px;
+    
+}
+
+.topcon .left .info .insta p{
+    margin-top: 10px;
+}
+
+.topcon .left .info .insta ul{
+    overflow:hidden;
+    margin-top: 50px;
+}
+.topcon .left .info .insta ul li{
+    float: left;
+    margin: 3%;
+}
+.topcon .left .info .insta ul li img{
+    width: 100%;
+}
+
+.topcon .left .info .pro_info{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-top: 1px solid #555;
+    color: #fff;
+    
+    
+    
+    
+}
+.topcon .left .info .pro_info h1{
+    margin-top: 100px;
+}
+.topcon .left .info .pro_info img{
+    margin-top: 30px;
+}
+
+.topcon .left .info .pro_info dl{
+    line-height: 3.0;
+    
+}
+.topcon .left .info .pro_info dd{
+    color: #fff;
+    margin: 0;
+}
+.topcon .left .info .pro_info dt{
+    color: antiquewhite;
+    font-size: 1.5em;
+    
+ }
+
+.insta{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.insta div{
+    margin: 0; padding: 1%;
+    overflow: hidden;
+}
+
+.number{
+    margin-top: 30px;
+    border: 1px solid #ddd;
+    width: 120px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 2%;
+    color: white;
+}
+
+.number a{margin: 1%;}

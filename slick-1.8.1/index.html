@@ -1,0 +1,291 @@
+  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>header</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="css/com.css" rel="stylesheet" type="text/css">
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <header>
+
+
+
+        <div>
+
+            <a class="menu-trigger" href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+
+
+            <div class="logo">
+                <a href="index.html"><img src="img/logo_converse.jpg"></a>
+            </div>
+
+
+            <div class="list">
+                <nav>
+                    <a href="#">신발</a>
+                    <a href="#">의류</a>
+                    <a href="member.html">회원전용</a>
+                    <a href="#">런칭캘린더</a>
+                    <a href="summerspecial.html">여름스페셜</a>
+                </nav>
+            </div>
+
+
+            <div class="icons">
+                <nav>
+                    <a href="#"><img src="img/nav-user.png"></a>
+                    <a href="#"><img src="img/nav-cart.png"></a>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+
+        <div class="con1">
+
+            <img src="img/gipsy.png" alt="">
+            <img src="img/runstar.png" alt="">
+        </div>
+
+        <div class="all">
+            <h1>CHOOSE YOUR ICON</h1>
+            <div class="ar">
+                <ul class="ak">
+                    <li><img src="img/arr2.png" alt=""></li>
+                    <li>
+                        <p>전체보기</p>
+                    </li>
+                </ul>
+
+                <ul class="sh">
+                    <li>
+                        <img src="img/chuck.png" alt="">
+                        <p>척 테일러 올스타</p>
+                    </li>
+
+                    <li>
+                        <img src="img/r70.png" alt="">
+                        <p>척 70</p>
+                    </li>
+
+                    <li>
+                        <img src="img/r1star.png" alt="">
+                        <p>원스타<p>
+                    </li>
+
+                    <li>
+                        <img src="img/whitejackrr.png" alt="">
+                        <p>잭 퍼셀</p>
+                    </li>
+                </ul>
+
+
+            </div>
+        </div>
+        <div class="commu">
+            <h1>CONVERSE COMMUNITY</h1>
+
+            
+            <div class="num">
+<!--
+                <div style="float: left; width:25%;">
+                    <img src="img/in1.png" id="banner" alt="">
+                </div>
+                <div style="float: left; width:25%;">
+                    <img src="img/in2.png" id="banner" alt="">
+                </div>
+                <div style="float: left; width:25%;">
+                    <img src="img/in3.png" id="banner" alt="">
+                </div>
+                <div style="float: left; width:25%;">
+                    <img src="img/in4.png" id="banner" alt="">
+                </div>
+                <div style="float: left; width:25%;">
+                    <img src="img/in5.png" id="banner" alt="">
+                </div>
+                <div style="float: left; width:25%;">
+                    <img src="img/in6.png" id="banner" alt="">
+                </div>
+                <div style="float: left; width:25%;">
+                    <img src="img/in7.png" id="banner" alt="">
+                </div>
+                <div style="float: left; width:25%;">
+                    <img src="img/in8.png" id="banner" alt="">
+                </div>
+-->
+                
+              </div>  
+                
+
+            
+
+        </div>
+
+        <div class="feng">
+            <img src="img/femg.png" alt="">
+            <img src="img/summer.png" alt="">
+
+        </div>
+
+    </main>
+
+
+
+    <footer>
+        <div class="footer">
+            <div class="left">
+                <p>
+                    서울시 강남구 테헤란로 152 강남파이낸스센터 30F<br>제 2016-서울강남-00478호<br>컨버스코리아 대표 주형준 개인정보책임 주형준<br>사업자등록번호 220-88-74818<br>
+                    <br><br>2020 Converse Korea LLC.All Right Reserved.
+
+
+                </p>
+            </div>
+
+
+
+            <div class="righ">
+                <a href="#"><img src="img/at1.png"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function init() { //start
+
+            var ran = document.querySelectorAll('.num div');
+            var num = null;
+            var arr = [
+                'img/in1.png',
+                'img/in2.png',
+                'img/in3.png',
+                'img/in4.png',
+                'img/in5.png',
+                'img/in6.png',
+                'img/in7.png',
+                'img/in8.png'
+            ];
+            var aaa=[],bln,num2=[];
+            function rand() {
+
+                var arrLen = arr.length;
+                for (var i = 0; i < arrLen; i++) {
+                    bln=true;
+                    num = Math.floor(Math.random() * 8) + 1;
+                    
+                    for (var j = 0; j < num2.length; j++) {
+                        if(num == num2[j]){
+                            arrLen++;
+                            bln = false;
+                        }  
+                    }
+                    num2.push(num);
+                    if(bln){
+                        aaa.push(arr[num]);
+                    }
+                }
+                
+                console.log(aaa)
+
+                for (var i = 0; i < arr.length; i++) {
+
+
+//                    arr.push(ran[i]);
+                    $('.num').append("<div style='float:left; width:25%;'><img src='" + arr[i] +"' id='banner' alt=''></div>");
+                    
+                    
+                } //for
+                
+                
+                console.log(arr[num]);
+
+            } //move
+            rand();
+
+        } //end
+        init();
+        
+        
+    </script>
+
+
+
+</body></html>
+<!--
+var banner = new Array();
+//            banner[banner.length] = 'in1.jpg';
+//            banner[banner.length] = 'in2.jpg';
+//            banner[banner.length] = 'in3.jpg';
+//            banner[banner.length] = 'in4.jpg';
+//            banner[banner.length] = 'in5.jpg';
+//            banner[banner.length] = 'in6.jpg';
+//            banner[banner.length] = 'in7.jpg';
+//            banner[banner.length] = 'in8.jpg';
+//        
+//        var banElem = document.getElementById('banner');
+//        var size = Math.floor(Math.random()*(banner.length) + 1);
+//        size = (isNaN(size)) ? 0 :size;
+//        banElem.setAttribute('src',banner[size]);
+-->
+
+<!--
+var imgArray = new Array();
+        
+        imgArray[0]="in1.jpg";
+        imgArray[1]="in2.jpg";
+        imgArray[2]="in3.jpg";
+        imgArray[3]="in4.jpg";
+        imgArray[4]="in5.jpg";
+        imgArray[5]="in6.jpg";
+        imgArray[6]="in7.jpg";
+        imgArray[7]="in8.jpg";
+        
+        function showImage(){
+            var imgNum = Math.round(Math.random()*8);
+            var objImg = document.getElementById("introImg")
+            objImg.src = imgArray[imgNum];
+        }
+-->
+<!--
+    
+-->
+<!--
+    function init(){
+            var banner = new Array();
+            banner[banner.length] = [
+                'img/in1.png',
+                'aaa'
+            ];
+
+            banner[banner.length] = [
+                'img/in2.png',
+                'bbb'
+            ];
+
+            banner[banner.length] = [
+                'img/in3.png',
+                'ccc'
+            ];
+
+            var banElem = document.getElementById('#banner');
+            var size = Math.floor(Math.random()*(banner.length));
+            size = (isNaN(size)) ? 0 :size;
+            banElem.setAttribute('src',banner[size][1]);
+            banElem.setAttribute('alt',banner[size][2]);
+            
+         }
+        init();
+-->
+

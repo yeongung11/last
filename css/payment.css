@@ -1,0 +1,370 @@
+@import url(common.css);
+
+/*------------left -----------*/
+.topcon {
+    
+    display: flex;
+    justify-content: space-around;
+/*    border-bottom: 1px solid #000;*/
+    margin-bottom: 200px;
+    width: 80%;
+}
+
+.topcon .left{
+    width: 60vw;
+    margin: 0 !important;
+    
+    
+    
+}
+.topcon .left .pro_img{
+    width: 100%;
+}
+
+.topcon .left .s_img{
+    text-align: center;
+}
+
+.topcon .left .s_img ul{
+    width: 80%;
+    overflow: hidden;
+    display: inline-block;
+}
+.topcon .left .s_img ul li{
+    float: left;
+    margin: 1%;
+    
+}
+.topcon .left .s_img ul li img{width: 100%;}
+
+/*-------------right-------------*/
+
+.right{
+    position: fixed;
+    width: 30vw;
+    right: 5%;
+    background: #f9f8f6;
+}
+
+.right .first{
+    overflow: hidden;
+}
+.right .first h1{
+    font-size: 2em;
+}
+.right .first .price{
+    margin-top: 30px;
+    font-size: 1.5em;
+}
+.right .first span{
+    float: right;
+    margin-top: 30px;
+    font-size: 20px;
+    color: darkblue;
+}
+
+.right .first .fm{
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+.right .first .best{
+    margin-top: 30px;
+    font-size: 1.2em;
+}
+
+.right .first a{
+    margin-top: 30px;
+}
+
+.second{
+    margin-top: 50px;
+    border-top: 1px solid #555;
+    overflow: hidden;
+/*
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+*/
+}
+.second .lef{
+    margin-top: 30px;
+    font-size: 
+}
+.second .lef p{
+    
+}
+.second ul{
+    margin-top: 30px;
+    width: 70%;
+    overflow: hidden;
+}
+.second ul li{
+    float: left;
+}
+
+.second img{
+/*    margin-top: 30px;*/
+}
+
+.second img:hover{
+/*   border-bottom: 1px solid #000;*/
+    background: rgba(0,0,0,0.4);
+}
+
+.size{}
+.size ul{
+    margin-top: 30px;
+    overflow: hidden;
+    width: 50%;
+    text-align: center;
+    
+}
+.size ul li{
+    
+    float: left;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #000;
+    color: #000;
+    margin: 0.5px;
+}
+
+.size ul li:hover{
+    background: #000;
+    color: #fff;
+}
+
+.ea{
+    margin-top: 30px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 30px;
+}
+
+.ea input{
+    width: 10%;
+    height: 40px;
+    text-align: center;
+    border:none;
+    background: #ddd;
+}
+.ea button{
+    padding: 13px 17px 13px 17px;
+    border:none;
+    background: #ddd;
+    
+}
+
+.topcon .right .login{
+    margin-top: 50px;
+    text-align: center;
+}
+.topcon .right .login a{
+    width: 100%;
+    padding: 20px 50px 20px 50px;
+    background: #000;
+    color: #fff;
+   
+}
+
+.topcon .s_img{
+    margin-bottom: 30px;
+}
+.topcon .info{
+    border-top: 1px solid #000;
+    width: 75%;
+}
+
+.topcon .info h2{
+    margin-top: 100px;
+}
+.topcon .info p{
+    line-height: 2.0;
+}
+
+.topcon .left .info .review{
+    margin-top: 100px;
+    border-top: 1px solid #000;
+}
+.topcon .left .info .review h1{
+    margin-top: 100px;
+}
+.topcon .left .info .review ul{
+    overflow: hidden;
+    
+}
+.topcon .left .info .review ul li{
+    float: left;
+    width: 250px;
+    height: 300px;
+    border: 1px solid #000;
+    text-align: center;
+    margin-top: 100px;
+    
+}
+.topcon .left .info .review ul li strong p{
+    font-size: 5em;
+    text-align: center;
+    
+    
+    
+    
+}
+
+.topcon .left .info .review ul li p{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.topcon .left .info .review ul li h2{
+    width: 80%;
+    text-align: center;
+}
+
+.topcon .left .info .review .girl{
+    margin-top: 60px;
+}
+.topcon .left .info .review ul li img{
+    width: 70%;
+    margin-top: 30px;
+}
+
+.topcon .left .info .insta{
+    
+}
+.topcon .left .info .insta h1{
+    margin-top: 100px;
+    
+}
+
+.topcon .left .info .insta p{
+    margin-top: 10px;
+}
+
+.topcon .left .info .insta ul{
+    overflow:hidden;
+    margin-top: 50px;
+}
+.topcon .left .info .insta ul li{
+    float: left;
+    margin: 3%;
+}
+.topcon .left .info .insta ul li img{
+    width: 100%;
+}
+
+.topcon .left .info .pro_info{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-top: 1px solid #000;
+    
+    
+    
+    
+}
+.topcon .left .info .pro_info h1{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.topcon .left .info .pro_info p{
+    margin-top: 30px;
+}
+
+.topcon .left .info .pro_info dl{
+    line-height: 3.0;
+    
+}
+.topcon .left .info .pro_info dd{
+    color: #000;
+    margin: 0;
+}
+.topcon .left .info .pro_info dt{
+    color: #000;
+    font-size: 1.5em;
+    
+    
+}
+.info a{
+    font-size: 1.5em;
+}
+.topcon .right{
+    opacity: 1;
+}
+
+.insta{
+    width: 100%;
+/*    margin: 1%;*/
+    display: flex;
+/*    justify-content: center;*/
+    flex-wrap: wrap;
+}
+
+.insta div{
+    margin: 0; padding: 1%;
+    overflow: hidden;
+}
+
+#layer { display: none; position: fixed; left: 30%; top: 10%; width: 700px; 
+	border: 10px solid #dceff7; box-shadow: 3px 3px 10px rgba(0,0,0,0.4);}
+#layer img {width: 100%; display: block;}
+#layer .close {position: absolute; right: 20px; top: 20px; 
+	background: #0093bd; padding: 1px 6px; color: #fff;}
+#layer .close:hover {text-decoration: underline;}
+
+
+.number{
+    margin-top: 30px;
+    border: 1px solid #ddd;
+    width: 120px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 2%;
+}
+
+.number a{margin: 1%;}
+
+.under{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+/*    overflow: hidden;*/
+/*    margin-bottom: 10px;*/
+}
+
+.under ul{
+    width: 100%;
+/*    margin: 1%;*/
+    padding: 1%;
+    border-top: 2px solid #ddd;
+/*    border-bottom: 2px solid #ddd;*/
+    margin-top: 30px;
+}
+
+.under ul li{
+/*    float: left;*/
+    vertical-align: middle;
+    display: inline-block;
+    text-align: center;
+    padding-left:160px;
+    line-height: 1.5;
+    margin-top: 30px;
+    
+}
+
+.under ul li h3{
+    text-align: center;
+    
+}
+.under ul li p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.first{
+    margin-bottom: 45px;
+}
+

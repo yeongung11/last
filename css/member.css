@@ -1,0 +1,279 @@
+@import url(common.css);
+
+.con1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 0;
+    
+}
+
+.con img{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.all{
+    text-align: center;
+    margin-top: 50px;
+    
+}
+.all a{
+    width: 300px;
+    height: 200px;
+    background: #000;
+    color: #fff;
+    padding: 20px 50px 20px 50px;
+    font-size: 1.5em;
+}
+
+
+
+.commu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    
+}
+
+.commu h1{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 2em;
+}
+
+.commu ul{
+    width: 100%;
+    margin: 1%;
+    padding: 1%;
+    border-top: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
+    margin-top: 50px;
+}
+
+.commu ul li{
+    float: left;
+    text-align: center;
+    margin: 3%;
+    padding-left:60px;
+    line-height: 1.5;
+/*    border-left:  2px solid #555;*/
+    
+}
+
+.commu ul li h3{
+    text-align: center;
+    
+}
+.commu ul li p{
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.feng{
+    width: 100%;
+    margin-top: 100px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.feng img{
+    width: 80%;
+}
+
+
+.sepa{
+    border-top: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
+    
+}
+
+.sepa .sle {
+    width: 100%;
+    padding: 1%;
+    overflow: hidden;
+}
+.sepa .content{
+    margin-left: 50px;
+    border: none; background: none;
+    text-decoration: underline;
+}
+
+.sepa .sle p{
+    float: left;
+    font-weight: bold;
+    margin: 0; padding: 0;
+}
+
+.sepa .sle select {
+    width: 100px;
+    float: right;
+    border: none;
+    background: #f7f7f7;
+    
+}
+
+/*
+.sepa .sle select:after{
+    border-left: 2px solid #000;
+}
+*/
+
+
+.p_list{
+    overflow: hidden;
+    padding: 1%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    
+/*    position: relative;*/
+/*    text-align: center;*/
+}
+
+.p_list ul {
+    width: 100%;
+    
+}
+
+.p_list ul li {
+    
+/*    margin-top: 70px;*/
+/*    padding-left: 40px;*/
+    padding: 1%;
+    line-height: 2.5;
+    
+}
+.p_list ul li img{
+    width: 100%;
+}
+.p_list ul li img:hover{
+    
+}
+.p_list .filter{
+    width: 400px;
+      
+}
+
+.p_list  .filter ul{
+    width: 70%;
+    
+}
+
+.p_list  .filter ul li{
+    
+}
+
+/*
+.p_list .filter ul li .colr{
+    background-color: blue;
+    width: 15px; height: 15px;
+    border-radius: 100px;
+}
+*/
+
+.p_list .filter ul li{
+    background: none;
+    margin-top: 30px;
+    padding: 0; margin: 1%;
+    width: 50px; height: 45px;
+/*    border: 2px solid #ddd;*/
+    text-align: center;
+    display: inline-block;
+    
+}
+
+.si li{
+    border: 2px solid #ddd;
+}
+
+
+.filter h3{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.p_list .filter ul li path{
+    width: 15px; height: 15px;
+}
+
+.p_list .filter .sil svg path{
+    padding-top:30px;
+/*    display: inline-block;*/
+}
+
+.p_list .filter .sil #cut-hi{
+    padding-top: 50px;
+    width: 50px;
+}
+.p_list .filter .sil #cut-lo{
+    padding-top: 30px;
+    width: 50px;
+}
+.p_list .filter .sil #cut-mid{
+    padding-top: 30px;
+    width: 50px;
+}
+.p_list .filter .sil #cut-plat{
+    padding-top: 30px;
+    width: 50px;
+}
+.p_list .filter .sil #cut-slip{
+    padding-top: 30px;
+    width: 50px;
+    
+    
+}
+
+.sil{
+    width: 200px;
+/*
+    display: flex;
+    justify-content: center;
+    align-content: 
+*/
+}
+
+.sil ul li svg path{
+    padding: 10%;
+}
+
+.b_list{
+    width:80%;
+    transition-delay: 213ms;
+    transition-duration: .32s;
+    transition-timing-function: ease-out;
+    transition: .5s;
+/*    text-align: center;*/
+    
+}
+
+.b_list ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    }
+.b_list ul li{
+    width: 25%;
+}
+
+
+.b_list a{
+    margin-left: 45%;
+    font-size: 2em;
+    font-weight: bold;
+    color: #000;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    
+}
+
+#more.active{
+    opacity: 0;
+}
+
+
+

@@ -1,0 +1,1128 @@
+/*
+header-logo, menu, icons
+main image
+
+footer-address, logo, social media, Q
+*/
+
+body {
+    background-color: #000;
+}
+
+/*=======Font google에서 불러온거===============*/
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+
+
+html,
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    
+}
+
+ul,
+li {
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+p {
+
+    margin: 0;
+    padding: 0;
+    font-style: Roboto;
+}
+
+a {
+    text-decoration: none;
+    color: #555;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+/*==================↓header& main menu↓==================*/
+
+/*===↓logo↓===*/
+header {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1% 0;
+    margin-bottom: 10px;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.menu-trigger {
+    display: none;
+}
+
+.logo {
+    width: 10%;
+}
+
+.logo a {}
+
+.logo a img {
+    width: 100%;
+}
+
+
+/*===↓menu bar↓===*/
+.list {
+    width: 100%;
+}
+
+.list nav {
+    width: 60%;
+    /*    margin-right: 30%;*/
+}
+
+.list nav a {
+    font-style: 'Roboto';
+    font-size: 1em;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 5%;
+    text-align: center;
+}
+.list nav a:nth-last-of-type(1){}
+.list nav a:nth-last-of-type(2){}
+.list nav a:nth-last-of-type(3){}
+.list nav a:nth-last-of-type(4){}
+.list nav a:nth-last-of-type(5) {
+    font-style: 'Roboto';
+    font-size: 1em;
+    text-decoration: none;
+    color: aqua;
+    margin-left: 5%;
+    text-align: center;
+}
+
+.list nav a:hover {
+/*    border-bottom: 2px solid darksalmon;*/
+    color: #555;
+    transition: .5s;
+    border: 0;
+    
+}
+
+
+/*===↓language↓===*/
+.side {
+    width: 12%;
+}
+
+.side .lang {
+    justify-content: space-between;
+}
+
+.side .lang nav {
+    font-size: 20px;
+
+}
+
+.side .lang nav a {
+    font-size: 20px;
+    text-align: end;
+    font-style: 'Roboto';
+}
+
+.side .lang nav a:hover {
+    border-bottom: 2px solid darksalmon;
+    color: darksalmon;
+    border: 0;
+}
+
+.side .lang nav p {
+    font-size: 20px;
+}
+
+
+/*===↓Icons↓===*/
+.side .icons {}
+
+.side .icons nav {}
+
+.side .icons nav a {}
+
+
+.icons nav a:nth-of-type(1) img {
+    width: 35%;
+    height: 35%;
+
+}
+
+.icons nav a:nth-of-type(2) img {
+    width: 45%;
+    height: 45%;
+}
+
+
+
+
+
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.join_us_btn {
+    text-align: center;
+}
+
+.join_us_btn a {
+    background-color: #FFE1B4;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+    display: inline-block;
+    padding: 1% 1%;
+    text-align: center;
+    font-size: 1.6vw;
+    width: 10%;
+    margin: 1%;
+    line-height: 2.0;
+    font-style: 'Roboto';
+}
+
+/*=================↑end of join us button↑======================
+
+/*==================↓footer↓==================*/
+footer {
+    background: #000;
+    border-top: 2px solid #555;
+    color: #fff;
+    width: 100%;
+    padding: 3% 0;
+    margin: 0 auto;
+    bottom: 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3%;
+
+}
+
+/*=========↓left address↓========*/
+
+.left {
+    width: 80%;
+    padding: 0;
+    margin: 0 auto;
+
+}
+
+.left p {
+    font: 12px;
+    text-align: left;
+    width: 100%;
+
+
+}
+
+
+/*=========↓right frq↓========*/
+.righ {
+    width: 13%;
+
+}
+
+.righ a {
+    width: 100%;
+}
+
+.righ a img {
+    width: 100%;
+}
+
+
+
+
+@media (max-width:1452px) {
+    header {
+        width: 100%;
+        margin: 0 auto;
+        padding: 2% 0;
+
+
+    }
+
+    header div {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .menu-trigger {
+        display: none;
+    }
+
+
+    .logo {
+        width: 30%;
+    }
+
+    .logo a {}
+
+    .logo a img {
+        width: 100%;
+    }
+
+
+    /*===↓menu bar↓===*/
+    .list {
+        width: 30%;
+    }
+
+    .list nav {
+        width: 100%;
+        /*    margin-right: 30%;*/
+    }
+
+    .list nav a {
+        font-style: 'Roboto';
+        font-size: 20px;
+        text-decoration: none;
+        color: #000;
+        margin-left: 5%;
+        /*    padding-left: 5%;*/
+        text-align: center;
+    }
+
+    .list nav a:hover {
+        border-bottom: 2px solid darksalmon;
+        color: darksalmon;
+        /*    색바꾸기*/
+
+        /*    padding: 5px 0;*/
+    }
+
+
+    /*===↓language↓===*/
+    .side {
+        width: 20%;
+    }
+
+    .side .lang {
+        justify-content: space-between;
+    }
+
+    .side .lang nav {
+        font-size: 18px;
+    }
+
+    .side .lang nav a {
+        font-size: 18px;
+        text-align: end;
+        font-style: 'Roboto';
+    }
+
+    .side .lang nav a:hover {
+        border-bottom: 2px solid darksalmon;
+        color: darksalmon;
+    }
+
+
+    /*===↓Icons↓===*/
+    .side .icons {}
+
+    .side .icons nav {}
+
+    .side .icons nav a {}
+
+
+    .icons nav a:nth-of-type(1) img {
+        width: 30%;
+        height: 30%;
+
+    }
+
+    .icons nav a:nth-of-type(2) img {
+        width: 40%;
+        height: 40%;
+    }
+}
+
+@media (max-width:1024px) {
+    header {
+        width: 100%;
+        margin: 0 auto;
+        padding: 2% 0;
+
+
+    }
+
+    header div {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .menu-trigger {
+        display: none;
+    }
+
+
+    .logo {
+        width: 30%;
+    }
+
+    .logo a {}
+
+    .logo a img {
+        width: 100%;
+    }
+
+
+    /*===↓menu bar↓===*/
+    .list {
+        width: 30%;
+    }
+
+    .list nav {
+        width: 100%;
+        /*    margin-right: 30%;*/
+    }
+
+    .list nav a {
+        font-style: 'Roboto';
+        font-size: 15px;
+        text-decoration: none;
+        color: #000;
+        margin-left: 5%;
+        /*    padding-left: 5%;*/
+        text-align: center;
+    }
+
+    .list nav a:hover {
+        border-bottom: 2px solid darksalmon;
+        color: darksalmon;
+        /*    색바꾸기*/
+
+        /*    padding: 5px 0;*/
+    }
+
+
+    /*===↓language↓===*/
+    .side {
+        width: 20%;
+    }
+
+    .side .lang {
+        justify-content: space-between;
+    }
+
+    .side .lang nav {
+        font-size: 15px;
+    }
+
+    .side .lang nav a {
+        font-size: 15px;
+        text-align: end;
+        font-style: 'Roboto';
+    }
+
+    .side .lang nav a:hover {
+        border-bottom: 2px solid darksalmon;
+        color: darksalmon;
+    }
+
+
+    /*===↓Icons↓===*/
+    .side .icons {}
+
+    .side .icons nav {}
+
+    .side .icons nav a {}
+
+
+    .icons nav a:nth-of-type(1) img {
+        width: 28%;
+        height: 28%;
+
+    }
+
+    .icons nav a:nth-of-type(2) img {
+        width: 38%;
+        height: 38%;
+    }
+
+    /*=================↓join us button↓======================*/
+    main {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .join_us_btn {
+        text-align: center;
+    }
+
+    .join_us_btn a {
+        background-color: #FFE1B4;
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+        display: inline-block;
+        padding: 1% 1%;
+        text-align: center;
+        font-size: 1.6vw;
+        width: 10%;
+        margin: 1%;
+        line-height: 2.0;
+        font-style: 'Roboto';
+    }
+
+    /*=================↑end of join us button↑======================
+
+    /*==================↓footer↓==================*/
+    footer {
+        background: #f3f0ec;
+        width: 100%;
+        padding: 3% 0;
+        margin: 0 auto;
+        bottom: 0;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0 3%;
+
+
+    }
+
+    /*
+
+@media (min-width:320px)  { .navbar-fixed-bottom{position:relative !important;} }
+@media (min-width:480px)  { .navbar-fixed-bottom{position:relative !important;} }
+@media (min-width:600px)  { .navbar-fixed-bottom{position:relative !important;} }
+*/
+    /*=========↓left address↓========*/
+
+
+
+
+    .left {
+        width: 20%;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .left p {
+        font-size: 11px;
+        text-align: left;
+        width: 100%;
+
+
+    }
+
+    /*============↓center↓===========*/
+    .middle {
+        display: block;
+        width: au;
+        margin: auto;
+
+
+        /*    margin: 0 auto;*/
+    }
+
+    /*=====↓footer logo↓====*/
+    .middle .footer_logo {
+        width: 30%;
+        margin: 0 auto;
+    }
+
+    .middle .footer_logo img {
+        display: block;
+        margin: auto;
+        width: 100%;
+        padding-bottom: 4%
+    }
+
+    /*=====↓SNS↓====*/
+    .middle ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+        width: 25%;
+        margin: auto;
+    }
+
+    .middle ul li {
+        margin-left: 2%;
+    }
+
+    .middle ul li:nth-of-type(1) {
+        margin-left: 0%;
+    }
+
+    .middle ul li a {}
+
+    .middle ul li a img {
+        width: 100%;
+    }
+
+    /*=========↓right frq↓========*/
+    .righ {
+        width: 20%;
+
+
+    }
+
+    .righ a {
+        width: 100%;
+
+    }
+
+    .righ a img {
+        width: 100%;
+    }
+
+
+}
+
+@media (max-width:768px) {
+    header {
+        width: 100%;
+        margin: 0 auto;
+        padding: 2% 0;
+        position: relative;
+
+    }
+
+    header div {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .logo {
+        width: 30%;
+    }
+
+    .logo a {}
+
+    .logo a img {
+        width: 100%;
+    }
+
+
+    /*===↓menu bar↓===*/
+    .list {
+        width: 0%;
+
+    }
+
+
+    .list nav {
+        width: 30%;
+        /*    margin-right: 30%;*/
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: #fff;
+        padding: 20% 0;
+        box-shadow: -7px 2px 30px 2px rgba(0, 0, 0, 0.2);
+        display: none;
+    }
+
+    .list nav a {
+        font-style: 'Roboto';
+        font-size: 20px;
+        text-decoration: none;
+        color: #b8b8b8;
+        margin: 0;
+        /*        margin-left: 5%;*/
+        /*    padding-left: 5%;*/
+        text-align: center;
+        display: block;
+        margin-top: 15%;
+    }
+
+    .list nav a:nth-of-type(1) {
+        margin: 0;
+    }
+
+    .list nav a:hover {
+        border-bottom: 0px solid darksalmon;
+        color: darksalmon;
+        /*    색바꾸기*/
+
+        /*    padding: 5px 0;*/
+
+    }
+
+
+    /*===↓language↓===*/
+    .side {
+        width: 40%;
+        text-align: right;
+
+    }
+
+    .side .lang {
+        justify-content: space-between;
+    }
+
+    .side .lang nav {
+        font-size: 18px;
+    }
+
+    .side .lang nav a {
+        font-size: 18px;
+        text-align: end;
+        font-style: 'Roboto';
+    }
+
+    .side .lang nav a:hover {
+        border-bottom: 2px solid darksalmon;
+        color: darksalmon;
+
+    }
+
+
+    /*===↓Icons↓===*/
+    .side .icons {}
+
+    .side .icons nav {}
+
+    .side .icons nav a {}
+
+
+    .icons nav a:nth-of-type(1) img {
+        width: 25%;
+        height: 25%;
+
+    }
+
+    .icons nav a:nth-of-type(2) img {
+        width: 35%;
+        height: 35%;
+    }
+
+
+    .menu-trigger {
+        z-index: 3;
+    }
+
+    .menu-trigger,
+    .menu-trigger span {
+        display: inline-block;
+        transition: all .4s;
+        box-sizing: border-box;
+    }
+
+    .menu-trigger {
+        position: relative;
+        width: 28px;
+        height: 20px;
+        /*    transform: scale(0.5);*/
+        /*    ->버거메뉴의 크기를 늘리거나 줄일수있따.*/
+    }
+
+    .menu-trigger span {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background-color: #b8b8b8;
+        border-radius: 4px;
+    }
+
+
+
+    .menu-trigger span:nth-of-type(1) {
+        top: 0;
+    }
+
+    .menu-trigger span:nth-of-type(2) {
+        /*	top: 20px;*/
+        top: 50%;
+        transform: translateY(-50%);
+
+    }
+
+    .menu-trigger span:nth-of-type(3) {
+        bottom: 0;
+
+    }
+
+    .menu-trigger:hover span:nth-of-type(1) {
+        transform: rotateZ(-45deg) translateY(13px);
+
+    }
+
+    .menu-trigger:hover span:nth-of-type(2) {
+        display: none;
+    }
+
+    .menu-trigger:hover span:nth-of-type(3) {
+        transform: rotateZ(45deg) translateY(-13px);
+    }
+
+    /*=================↓join us button↓======================*/
+    main {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .join_us_btn {
+        text-align: center;
+    }
+
+    .join_us_btn a {
+        background-color: #FFE1B4;
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+        display: inline-block;
+        padding: 1% 1%;
+        text-align: center;
+        font-size: 1.6vw;
+        width: 10%;
+        margin: 1%;
+        line-height: 2.0;
+        font-style: 'Roboto';
+    }
+
+
+
+
+        /*==================↓footer↓==================*/
+
+    /*==================↓footer↓==================*/
+    footer {
+        background: #f3f0ec;
+        width: 100%;
+        padding: 3% 0;
+        margin: 0 auto;
+        bottom: 0;
+    }
+
+    .footer {
+        display: block;
+        align-items: none;
+        padding: 0 3%;
+
+    }
+
+    /*=========↓left address↓========*/
+
+    .left {
+        width: 20%;
+        padding: 0;
+        margin: 0 auto;
+        display: none;
+
+    }
+
+    .left p {
+        font: 12px;
+        text-align: left;
+        width: 100%;
+
+ display: none;
+    }
+
+    /*============↓center↓===========*/
+    .middle {
+        display: block;
+        width: 100%;
+        margin: auto;
+
+
+        /*    margin: 0 auto;*/
+    }
+
+    /*=====↓footer logo↓====*/
+    .middle .footer_logo {
+        width: 30%;
+        margin: 0 auto;
+    }
+
+    .middle .footer_logo img {
+        display: block;
+        margin: auto;
+        width: 100%;
+        padding-bottom: 4%
+    }
+
+    /*=====↓SNS↓====*/
+    .middle ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+        width: 50%;
+        margin: auto;
+    }
+
+    .middle ul li {
+        margin-left: 2%;
+    }
+
+    .middle ul li:nth-of-type(1) {
+        margin-left: 0%;
+    }
+
+    .middle ul li a {}
+
+    .middle ul li a img {
+        width: 100%;
+    }
+
+    /*=========↓right frq↓========*/
+    .righ {
+        padding-top:5%;
+        width: 20%;
+        margin: 0 auto;
+
+    }
+
+    .righ a {
+        width: 100%;
+    }
+
+    .righ a img {
+        width: 100%;
+    }
+
+
+
+}
+
+@media (max-width:480px) {
+    header {
+        width: 100%;
+        margin: 0 auto;
+        padding: 2% 0;
+        position: relative;
+
+    }
+
+    header div {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .logo {
+        width: 35%;
+    }
+
+    .logo a {}
+
+    .logo a img {
+        width: 100%;
+    }
+
+
+    /*===↓menu bar↓===*/
+    .list {
+        width: 0%;
+
+    }
+
+
+    .list nav {
+        width: 30%;
+        /*    margin-right: 30%;*/
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: #fff;
+        padding: 20% 0;
+        box-shadow: -7px 2px 30px 2px rgba(0, 0, 0, 0.2);
+        display: none;
+    }
+
+    .list nav a {
+        font-style: 'Roboto';
+        font-size: 13px;
+        text-decoration: none;
+        color: #b8b8b8;
+        margin: 0;
+        /*        margin-left: 5%;*/
+        /*    padding-left: 5%;*/
+        text-align: center;
+        display: block;
+        margin-top: 15%;
+    }
+
+    .list nav a:nth-of-type(1) {
+        margin: 0;
+    }
+
+    .list nav a:hover {
+        border-bottom: 0px solid darksalmon;
+        color: darksalmon;
+        /*    색바꾸기*/
+
+        /*    padding: 5px 0;*/
+
+    }
+
+
+    /*===↓language↓===*/
+    .side {
+        width: 42%;
+        text-align: right;
+    }
+
+    .side .lang {
+        justify-content: space-between;
+    }
+
+    .side .lang nav {
+        font-size: 13px;
+
+    }
+
+    .side .lang nav a {
+        font-size: 13px;
+        text-align: end;
+        font-style: 'Roboto';
+    }
+
+    .side .lang nav a:hover {
+        border-bottom: 2px solid darksalmon;
+        color: darksalmon;
+
+    }
+
+
+    /*===↓Icons↓===*/
+    .side .icons {}
+
+    .side .icons nav {}
+
+    .side .icons nav a {}
+
+
+    .icons nav a:nth-of-type(1) img {
+        width: 18%;
+        height: 18%;
+
+    }
+
+    .icons nav a:nth-of-type(2) img {
+        width: 25%;
+        height: 25%;
+    }
+
+    /*===menu-trigger===*/
+    .menu-trigger {
+        z-index: 3;
+    }
+
+    .menu-trigger,
+    .menu-trigger span {
+        display: inline-block;
+        transition: all .4s;
+        box-sizing: border-box;
+    }
+
+    .menu-trigger {
+        position: relative;
+        width: 18px;
+        height: 12px;
+        /*    transform: scale(0.5);*/
+        /*    ->버거메뉴의 크기를 늘리거나 줄일수있따.*/
+    }
+
+    .menu-trigger span {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        background-color: #b8b8b8;
+        border-radius: 4px;
+    }
+
+
+
+    .menu-trigger span:nth-of-type(1) {
+        top: 0;
+    }
+
+    .menu-trigger span:nth-of-type(2) {
+        /*	top: 20px;*/
+        top: 50%;
+        transform: translateY(-50%);
+
+    }
+
+    .menu-trigger span:nth-of-type(3) {
+        bottom: 0;
+
+    }
+
+    .menu-trigger:hover span:nth-of-type(1) {
+        transform: rotateZ(-45deg) translateY(7px);
+
+    }
+
+    .menu-trigger:hover span:nth-of-type(2) {
+        display: none;
+    }
+
+    .menu-trigger:hover span:nth-of-type(3) {
+        transform: rotateZ(45deg) translateY(-7px);
+    }
+
+    /*=================↓join us button↓======================*/
+    main {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .join_us_btn {
+        text-align: center;
+    }
+
+    .join_us_btn a {
+        background-color: #FFE1B4;
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+        display: inline-block;
+        padding: 1% 1%;
+        text-align: center;
+        font-size: 1.5vw;
+        width: 13%;
+        margin: 2%;
+        font-style: 'Roboto';
+    }
+
+
+
+
+F
+
+
+}
